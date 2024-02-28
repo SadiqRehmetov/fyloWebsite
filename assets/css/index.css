@@ -162,3 +162,38 @@
       gap: 50px;
     }
   }
+  header{
+    margin: 32px;
+}
+
+.logo{
+  height: 64px;
+  width: auto;
+}
+
+.menu-nav{
+  padding: 10px;
+}
+
+.menu-nav ul {
+  display: flex;
+  gap: 44px;
+}
+
+.menu-nav li{
+  padding: 10px;
+}
+
+ul{
+  font-size: 16pt;
+  font-weight: bold;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  float: right;
+}
+nav ul li a {
+  margin-left: 10px;
+}
