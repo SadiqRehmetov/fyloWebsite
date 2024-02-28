@@ -14,7 +14,92 @@
   ul li {
     list-style-type: none;
   }
-  
+  #all .protativ .all-files {
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+  }
+  #all .protativ .all-files .left1 {
+    margin: 1px 5px 16px 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .mini {
+    display: flex;
+    gap: 20px;
+  }
+  #all .protativ .all-files .left1 h1 {
+    width: 100%;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #07043B;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #all .protativ .all-files .left1 p{
+    font-size: large;
+  }
+  #all .protativ .all-files .left1 button {
+    width: 200px;
+    height: 50px;
+    padding: 15px 10px;
+    background-color: #2F65F8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+#all .protativ .all-files .left1 button:hover {
+  color: #2F65F8;
+  background-color: white;
+  transition: 0.5s;
+  border: 1px solid black;
+}
+  #all .protativ .all-files .left1 input {
+    width: 300px;
+    height: 50px;
+    padding: 15px 20px;
+    border: 1px solid rgba(7, 4, 59, 0);
+    outline: none;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+    
+  }
+  #all .protativ .all-files .left11 input:focus {
+    border: 10px solid #07043B;
+  }
+  @media screen and (max-width: 768px) {
+    .protativ {
+      padding: 0px 20px;
+    }
+    #all .protativ .all-files {
+      width: 100%;
+      flex-direction: column;
+      gap: 40px;
+      text-align: center;
+    }
+    #all .protativ .all-files .left1 {
+      width: 100%;
+      align-items: center;
+    }
+    #all .protativ .all-files .left1 h1 {
+      width: 100%;
+    }
+    #all .protativ .all-files .left1 p {
+      width: 100%;
+      font-size: 20px;
+    }
+    #all .protativ .all-files .mini input {
+      width: 100%;
+    }
+    #all .protativ .all-files .mini button {
+      width: 100%;
+    }
+  }
   #get-early {
     background-color: #575988;
     width: 100%;
